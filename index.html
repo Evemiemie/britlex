@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Britlex</title>
+</head>
+
+<body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#home" class="sidenav-close">Home</a></li>
+        <li><a href="#skills" class="sidenav-close">Skills</a></li>
+        <li><a href="#about" class="sidenav-close">About Us</a></li>
+        <li><a href="#pricing" class="sidenav-close">Pricing</a></li>
+        <li><a href="#contacts" class="sidenav-close">Contacts</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close">Close</a></li>
+    </ul>
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h5>Mail</h5>
+          <input type="text" placeholder="text@youremail.com">
+        </div>
+        <div class="modal-content">
+          <h5>Password</h5>
+          <input type="password" name="" id="">
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sing in</a>
+        </div>
+      </div> 
+
+    <header id="header">
+        <div class="container">
+            <div class="header__nav">
+                <a href="#home"><img src="img/logo.png" alt="logo" class="header__nav-img"></a>
+                <div class="header__nav-grid">
+                    <a href="#home" class="header__nav-grid-a">Home</a>
+                    <a href="#skills" class="header__nav-grid-a">Skills</a>
+                    <a href="#about" class="header__nav-grid-a">About Us</a>
+                    <a href="#pricing" class="header__nav-grid-a">Pricing</a>
+                    <a href="#contacts" class="header__nav-grid-a">Contacts</a>
+                </div>
+                <button class="header__nav-button">
+                    <a href="#modal1" class="modal-trigger"><h3 class="header__nav-button-h">Let's Talk</h3></a>
+                </button>
+                <a  class="header__nav-burger sidenav-trigger" data-target="slide-out">
+                    <div class="header__nav-burger-line"></div>
+                    <div class="header__nav-burger-line"></div>
+                    <div class="header__nav-burger-line-min"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="home__flex">
+                <div class="home__flex-item">
+                    <div class="home__flex-flex">
+                        <h1 class="home__flex-flex-h">Learn <br>Any Foreign Language</h1>
+                        <img src="img/icon.png" alt="idea" class="home__flex-flex-img">
+                    </div>
+                    <p class="home__flex-p">With our teachers who write a program for
+                        each student, you will be able to make your
+                        first sketch after the first lesson.</p>
+                    <button class="home__flex-button">
+                        <a href="#modal1" class="modal-trigger"><h3 class="home__flex-button-h">Get started</h3></a>
+                    </button>
+                </div>
+                <img src="img/home-img.png" alt="home__img" class="home__flex-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="skills-h2">Skills</h2>
+            <div class="home__grid">
+                <div class="home__grid-item item-1">
+                    <img src="img/home-1.png" alt="home" class="home__grid-item-img img-1">
+                    <h5 class="home__grid-item-h3">Speaking</h5>
+                    <p class="home__grid-item-p">Improve your English skills and confidence.
+                        Live classes and interactive lessons online.
+                        20% extra free for a limited time only<br>
+                        Learn English online and improve your
+                        skills through our high-quality courses
+                        and resources – all designed for adult language learners.</p>
+                    <button class="home__grid-item-button b1">
+                        <p class="home__grid-item-button-p">Learn more</p>
+                    </button>
+                </div>
+                <div class="home__grid-item item-2">
+                    <img src="img/home-2.png" alt="home" class="home__grid-item-img img-2">
+                    <h5 class="home__grid-item-h3">Writing</h5>
+                    <p class="home__grid-item-p">One of the most important and extensive
+                        areas of natural science, the science that
+                        studies substances, also their composition </p>
+                    <button class="home__grid-item-button b2">
+                        <p class="home__grid-item-button-p">Learn more</p>
+                    </button>
+                </div>
+                <div class="home__grid-item item-3">
+                    <img src="img/home-3.png" alt="home" class="home__grid-item-img img-3">
+                    <h5 class="home__grid-item-h3">Reading</h5>
+                    <p class="home__grid-item-p">Perception and response actions of the user
+                        resulting from the use and/or upcoming use
+                        of the product, system or service</p>
+                    <button class="home__grid-item-button b3">
+                        <p class="home__grid-item-button-p">Learn more</p>
+                    </button>
+                </div>
+                <div class="home__grid-item item-4">
+                    <div class="home__grid-item-4-flex">
+                        <h5 class="home__grid-item-h3">Listening</h5>
+                        <p class="home__grid-item-p p4">Here you can find activities to practise
+                            your listening skills. Listening will help you
+                            to improve your understanding</p>
+                        <button class="home__grid-item-button b4">
+                            <p class="home__grid-item-button-p">Learn more</p>
+                        </button>
+                    </div>
+                    <img src="img/home-4.png" alt="home" class="home__grid-item-img img-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="skills-h2 about-h">About Us</h2>
+            <div class="about__grid">
+                <div class="about__grid-items">
+                    <h2 class="about__grid-item-h">About Us</h2>
+                    <p class="about__grid-item-p">The model offers a framework for discussing problems related to the
+                        user's experience, as well as possible ways and means of solving them. Application development
+                        begins at the top level (strategy), where the future software product is described quite
+                        abstractly from the point of view of the expectations of both users and the customer.
+                    </p>
+                    <div class="about__grid-item__grid">
+                        <div class="about__grid-item__grid-item">
+                            <h3 class="about__grid-item__grid-item-numb">800</h3>
+                            <p class="about__grid-item__grid-item-text">Pupils</p>
+                        </div>
+                        <div class="about__grid-item__grid-item">
+                            <h3 class="about__grid-item__grid-item-numb">18</h3>
+                            <p class="about__grid-item__grid-item-text">Teachers</p>
+                        </div>
+                        <div class="about__grid-item__grid-item">
+                            <h3 class="about__grid-item__grid-item-numb">6</h3>
+                            <p class="about__grid-item__grid-item-text">Foreign languages</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/about-img.png" alt="about" class="about__grid-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="skills-h2">Pricing</h2>
+            <div class="pricing__grid">
+                <div class="pricing__grid-item">
+                    <img src="img/pricing-1.png" alt="" class="pricing__grid-item-img-1">
+                    <h3 class="pricing__grid-item-h">Self-study online course</h3>
+                    <p class="pricing__grid-item-p">Start learning English online in live classes
+                        with qualified EC teachers and students from all over the world.</p>
+                    <div class="pricing__grid-item-flex-1">
+                        <h3 class="pricing__grid-item-flex-numb">£5.99</h3>
+                        <h3 class="pricing__grid-item-flex-text">per month</h3>
+                    </div>
+                </div>
+                <div class="pricing__grid-item">
+                    <img src="img/pricing-2.png" alt="" class="pricing__grid-item-img-2">
+                    <h3 class="pricing__grid-item-h">Live online classes</h3>
+                    <p class="pricing__grid-item-p">Interactive group classes with expert
+                        teachers. Free 7-day trial</p>
+                    <div class="pricing__grid-item-flex-2">
+                        <h3 class="pricing__grid-item-flex-numb">£12.99</h3>
+                        <h3 class="pricing__grid-item-flex-text">per month</h3>
+                    </div>
+                </div>
+                <div class="pricing__grid-item">
+                    <img src="img/pricing-3.png" alt="" class="pricing__grid-item-img-3">
+                    <h3 class="pricing__grid-item-h">Personal Tuition</h3>
+                    <p class="pricing__grid-item-p">Online one-to-one English tutoring – enjoy
+                        our first session for only $1</p>
+                    <div class="pricing__grid-item-flex-3">
+                        <h3 class="pricing__grid-item-flex-numb">£20.99</h3>
+                        <h3 class="pricing__grid-item-flex-text">per month</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="contacts__flex-item-h contacts-h">Contact Us</h2>
+            <div class="contacts__flex">
+                <img src="img/contact-img.png" alt="contacts" class="contacts__flex-img">
+                <div class="contacts__flex-item">
+                    <h2 class="contacts__flex-item-h">Contact Us</h2>
+                    <p class="contacts__flex-item-p">Discover your current English level by taking our free online
+                        English test.Sign up to our newsletter for learning tips and free resourcesА</p>
+                    <div class="contacts__flex-item-flex">
+                        <input type="email" class="contacts__flex-item-input">
+                        <button class="contacts__flex-item-button"><h3 class="contacts__flex-item-button-h">Subscribe</h3></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__flex">
+                <img src="img/logo.png" alt="footer" class="footer__flex-img">
+                <h3 class="footer__flex-text">Terms and Conditions • Privacy Policy • Cookie Policy</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
